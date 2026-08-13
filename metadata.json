@@ -1,0 +1,6 @@
+{
+  "name": "Bragança Locadora",
+  "description": "Locação de equipamentos para construção em Bragança Paulista e região. Entrega rápida e orçamento online via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
