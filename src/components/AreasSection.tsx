@@ -5,15 +5,15 @@ export const AreasSection: React.FC = () => {
   return (
     <section id="areas" className="py-12 md:py-16 bg-[#fff8f6]">
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 space-y-10">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-1.5 bg-[#ffeae1] text-[#a14000] font-montserrat font-bold text-xs uppercase px-3.5 py-1.5 rounded-full border border-[#e2bfb0]">
             <MapPin className="w-4 h-4 text-[#ff6a00]" />
-            Atendimento Exclusivo Bragança Paulista - SP
+            Atendemos Bragança Paulista, Atibaia, Itatiba, Extrema e Região - SP
           </div>
           <h2 className="font-montserrat font-black text-2xl md:text-4xl text-[#261812] uppercase tracking-tight">
-            Aluguel de Equipamentos para Obra em <span className="text-[#ff6a00]">Bragança Paulista</span>
+            Aluguel de Equipamentos para Obra em <span className="text-[#ff6a00]">Bragança Paulista e Região</span>
           </h2>
           <p className="font-inter text-sm md:text-base text-[#5a4136] max-w-2xl mx-auto">
             Atendimento prioritário com frete grátis e entrega no mesmo dia para todos os bairros e canteiros de obras de Bragança Paulista.
@@ -78,7 +78,7 @@ export const AreasSection: React.FC = () => {
             </h4>
             <div className="flex flex-wrap gap-2 font-inter text-xs text-[#5a4136]">
               {[
-                'Centro', 'Jardim Europa', 'Taboão', 'Jardim do Lago', 'Bairro do Menin', 
+                'Centro', 'Jardim Europa', 'Taboão', 'Jardim do Lago', 'Bairro do Menin',
                 'Campo Novo', 'Santa Luzia', 'Jardim Santa Rita', 'Planejada I e II', 'Residencial Euroville',
                 'Quinta da Baroneza', 'Portal das Hortênsias', 'Vila Marly', 'Jardim Amapá', 'Bairro dos Silveiras',
                 'Distrito Industrial', 'Zona Rural & Chácaras'
