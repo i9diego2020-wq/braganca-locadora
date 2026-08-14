@@ -1,4 +1,6 @@
 import { Equipment } from '../types';
+import marteleteImg from '../assets/images/martelete.png';
+import betoneiraImg from '../assets/images/betoneira.png';
 
 export const EQUIPMENTS: Equipment[] = [
   {
@@ -8,7 +10,7 @@ export const EQUIPMENTS: Equipment[] = [
     categoryName: 'Demolição',
     tagline: 'Ideal para demolições de pisos, vigas e estruturas pesadas',
     description: 'O martelete demolidor de 30kg é o equipamento mais potente da categoria para quebra de concreto de alta resistência, pisos de concreto armado, sapatas e fundações com rapidez e eficiência sem esforço físico excessivo.',
-    imageUrl: '/src/assets/images/martelete.png',
+    imageUrl: marteleteImg,
     dailyRate: 110,
     weeklyRate: 480,
     monthlyRate: 1250,
@@ -95,7 +97,7 @@ export const EQUIPMENTS: Equipment[] = [
     categoryName: 'Concreto & Argamassa',
     tagline: 'Mais agilidade e produtividade no preparo de concreto',
     description: 'Betoneira de 400 litros reforçada com motor elétrico blindado. Capacidade ideal para misturas contínuas de concreto e argamassa em obras de pequeno, médio e grande porte.',
-    imageUrl: '/src/assets/images/betoneira.png',
+    imageUrl: betoneiraImg,
     dailyRate: 85,
     weeklyRate: 360,
     monthlyRate: 890,
