@@ -1,0 +1,13 @@
+# robots.txt — Bragança Locadora
+# https://www.bragancalocadora.com.br
+
+User-agent: *
+Allow: /
+
+# Bloquear arquivos de build e desenvolvimento desnecessários
+Disallow: /src/
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://www.bragancalocadora.com.br/sitemap.xml
