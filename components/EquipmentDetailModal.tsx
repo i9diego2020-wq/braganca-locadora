@@ -13,7 +13,7 @@ export const EquipmentDetailModal: React.FC<EquipmentDetailModalProps> = ({ equi
   if (!equipment) return null;
 
   const generateWhatsAppLink = () => {
-    const msg = `Olá Bragança Locadora! Gostaria de alugar o seguinte equipamento:\n*Equipamento:* ${equipment.name}\n\nPode confirmar a disponibilidade, valor e prazo de entrega para a minha obra?`;
+    const msg = `Olá Bragança Locadora! Gostaria de solicitar um orçamento para o seguinte equipamento:\n*Equipamento:* ${equipment.name}\n*Cidade:* Bragança Paulista - SP\n\nPode me confirmar a disponibilidade e o prazo de entrega no meu endereço?`;
     return `https://wa.me/5511965939300?text=${encodeURIComponent(msg)}`;
   };
 

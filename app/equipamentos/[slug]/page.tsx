@@ -1,3 +1,4 @@
+import { BragancaNeighborhoodsSection } from '@/components/BragancaNeighborhoodsSection';
 import React from 'react';
 import { EQUIPMENTS } from '@/lib/data/equipments';
 import { Header } from '@/components/Header';
@@ -230,6 +231,9 @@ export default async function EquipamentoPage({ params }: Props) {
             </li>
           </ol>
         </div>
+
+        {/* Neighborhoods Delivery Section */}
+        <BragancaNeighborhoodsSection equipmentName={equipment.name} />
 
         {/* Related Equipments */}
         {related.length > 0 && (

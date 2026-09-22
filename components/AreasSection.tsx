@@ -66,19 +66,20 @@ export const AreasSection: React.FC = () => {
             </p>
           </div>
 
-          {/* Bairros */}
+          {/* Bairros e Condomínios */}
           <div>
             <h4 className="font-montserrat font-bold text-xs text-[#261812] uppercase mb-3">
-              Bairros e Regiões Atendidas em Bragança Paulista:
+              Condomínios Fechados & Bairros com Entrega Expressa em Bragança Paulista:
             </h4>
             <div className="flex flex-wrap gap-2 font-inter text-xs text-[#5a4136]">
               {[
-                'Centro', 'Jardim Europa', 'Taboão', 'Jardim do Lago', 'Bairro do Menin',
-                'Campo Novo', 'Santa Luzia', 'Jardim Santa Rita', 'Planejada I e II', 'Residencial Euroville',
-                'Quinta da Baroneza', 'Portal das Hortênsias', 'Vila Marly', 'Jardim Amapá', 'Bairro dos Silveiras',
-                'Distrito Industrial', 'Zona Rural & Chácaras',
+                'Euroville I e II', 'Quinta da Baroneza', 'Residencial Colinas da Mantiqueira',
+                'Portal das Braganças', 'Quinta das Vinhedos', 'Rosário de Fátima', 'Jardim Europa',
+                'Terras de Santa Cruz', 'Villa Verde', 'Taboão', 'Centro', 'Santa Luzia',
+                'Distrito Industrial', 'Bragança C', 'Planejada I e II', 'Vila Aparecida',
+                'Matadouro', 'Lavapés', 'Santa Helena', 'Uberaba', 'Penha', 'Jardim Público'
               ].map((bairro, idx) => (
-                <span key={idx} className="bg-[#fff1eb] border border-[#e2bfb0] text-[#261812] px-3 py-1 rounded-full text-[11px] font-medium">
+                <span key={idx} className="bg-[#fff1eb] border border-[#e2bfb0] text-[#261812] px-3 py-1 rounded-full text-[11px] font-medium hover:border-[#ff6a00] hover:text-[#ff6a00] transition-colors">
                   📍 {bairro}
                 </span>
               ))}

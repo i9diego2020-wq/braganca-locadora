@@ -1,3 +1,4 @@
+import { BragancaNeighborhoodsSection } from '@/components/BragancaNeighborhoodsSection';
 import React from 'react';
 import { EQUIPMENTS } from '@/lib/data/equipments';
 import { Header } from '@/components/Header';
@@ -110,6 +111,8 @@ export default function EquipamentosPage() {
             </section>
           );
         })}
+
+        <BragancaNeighborhoodsSection />
       </main>
 
       {/* CTA Banner */}
