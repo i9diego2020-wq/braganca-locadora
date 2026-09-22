@@ -1,4 +1,15 @@
-export type CategoryId = 'all' | 'demolicao' | 'concreto' | 'elevacao' | 'compactacao' | 'cacamba' | 'ferramentas';
+export type CategoryId = 
+  | 'all' 
+  | 'demolicao' 
+  | 'concreto' 
+  | 'elevacao' 
+  | 'compactacao' 
+  | 'geradores' 
+  | 'bombas' 
+  | 'corte' 
+  | 'ferramentas' 
+  | 'limpeza' 
+  | 'cacamba';
 
 export interface Equipment {
   id: string;

@@ -18,9 +18,14 @@ export const metadata: Metadata = {
 
 const categories = [
   { id: 'demolicao', label: 'Demolição' },
+  { id: 'concreto', label: 'Concreto & Argamassa' },
   { id: 'elevacao', label: 'Andaimes & Elevação' },
   { id: 'compactacao', label: 'Compactação' },
-  { id: 'concreto', label: 'Concreto & Argamassa' },
+  { id: 'geradores', label: 'Geradores & Energia' },
+  { id: 'bombas', label: 'Bombas & Saneamento' },
+  { id: 'corte', label: 'Corte & Furação' },
+  { id: 'ferramentas', label: 'Ferramentas' },
+  { id: 'limpeza', label: 'Limpeza & Lavagem' },
   { id: 'cacamba', label: 'Caçambas' },
 ];
 
