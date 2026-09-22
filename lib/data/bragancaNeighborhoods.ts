@@ -9,6 +9,9 @@ export const BRAGANCA_NEIGHBORHOODS: NeighborhoodGroup[] = [
     items: [
       'Euroville I e II',
       'Quinta da Baroneza',
+      'Vale das Águas',
+      'Campos do Conde',
+      'Residencial Teriva',
       'Residencial Colinas da Mantiqueira',
       'Portal das Braganças',
       'Quinta das Vinhedos',
