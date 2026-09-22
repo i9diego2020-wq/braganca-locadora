@@ -76,9 +76,10 @@ export const AreasSection: React.FC = () => {
                 'Euroville I e II', 'Quinta da Baroneza', 'Vale das Águas', 'Campos do Conde',
                 'Residencial Teriva', 'Residencial Colinas da Mantiqueira', 'Portal das Braganças',
                 'Quinta das Vinhedos', 'Rosário de Fátima', 'Jardim Europa', 'Terras de Santa Cruz',
-                'Villa Verde', 'Taboão', 'Centro', 'Santa Luzia', 'Distrito Industrial',
-                'Bragança C', 'Planejada I e II', 'Vila Aparecida', 'Matadouro', 'Lavapés',
-                'Santa Helena', 'Uberaba', 'Penha', 'Jardim Público'
+                'Villa Verde', 'Taboão', 'Centro', 'Santa Luzia', 'Hípica Jaguari',
+                'Parque dos Estados', 'Jardim São Miguel', 'Itapechinga', 'Campo Novo',
+                'Distrito Industrial', 'Bragança C', 'Planejada I e II', 'Vila Aparecida',
+                'Matadouro', 'Lavapés', 'Santa Helena', 'Uberaba', 'Penha', 'Jardim Público'
               ].map((bairro, idx) => (
                 <span key={idx} className="bg-[#fff1eb] border border-[#e2bfb0] text-[#261812] px-3 py-1 rounded-full text-[11px] font-medium hover:border-[#ff6a00] hover:text-[#ff6a00] transition-colors">
                   📍 {bairro}
